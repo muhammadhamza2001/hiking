@@ -1,0 +1,530 @@
+/* Hero Image part starts from here */
+
+.navbar-brand {
+    padding-left: 50px;
+}
+
+#hero-bg {
+    background-image: url("hero.png");
+    width: 100%;
+    height: auto;
+    background-size: cover;
+}
+
+#hero {
+    padding: 200px 0;
+}
+
+#hero h1 {
+    font-size: 80px;
+    font-weight: 750;
+    color: #F7B776;
+}
+
+#hero b {
+    font-size: 28px;
+}
+
+#hero button {
+    background-color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 0px 20px;
+    font-weight: bold;
+
+}
+
+#links a {
+
+    font-weight: bold;
+}
+
+#links input {
+    border-radius: 50px;
+    width: 50%;
+    background-color: #C8C1BE;
+    border: none;
+}
+
+#links svg {
+    margin-left: -22px;
+}
+
+/* Hero image part ends here */
+/* Cards part starts from here */
+#upper-card- {
+    padding-top: 180px;
+}
+
+#upper-card-bg {
+    background-image: url("card-bg.png");
+}
+
+#up-card-txt p {
+    color: #B4B0AA;
+}
+
+#up-card-txt h2 {
+    color: #FFAD4C;
+    font-weight: 700;
+}
+
+#up-card-txt {
+    text-align: center;
+}
+
+#upper-card {
+    justify-content: space-around;
+
+}
+
+.card-body {
+    color: white;
+}
+
+.card-body {
+    background-color: #86786E;
+}
+
+.card-img-top img {
+    width: 100%;
+    height: auto;
+}
+
+.center-btn {
+    text-align: center;
+    padding: 50px 0;
+}
+
+.center-btn button {
+
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: #86786E;
+    border: none;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* Cards Ends here */
+/* Images and text part starts from here */
+#left-img img {
+    width: 100%;
+    height: auto;
+}
+
+.right-txt {
+    padding: 150px 0;
+}
+
+.right-txt h1 {
+    color: black;
+    font-size: 60px;
+    color: white;
+}
+
+.right-txt p {
+    font-size: 22px;
+    color: white;
+}
+
+.right-txt button {
+    border-radius: 50px;
+    padding: 10px 50px;
+    background-color: #FFAD4C;
+    border: none;
+    color: aliceblue;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+#brown-bg {
+    background-color: #86786E;
+}
+
+#orange-img-bg {
+    background-color: #FCB571;
+}
+
+/* Images and text part ends here */
+
+
+/* Mountain part starts from here */
+
+.mountain {
+    padding: 320px 0;
+    text-align: center;
+}
+
+.mountain h2 {
+    font-size: 50px;
+    color: white;
+    font-weight: 400;
+}
+
+.mountain p {
+    font-size: 22px;
+    color: white;
+}
+
+#mountain-bg {
+    background-image: url("mountain-bg.png");
+}
+
+/* mountain part ends here */
+/* Climbing starts from here */
+#climbing img {
+    width: 100%;
+    height: auto;
+}
+
+/* Climbing ends here */
+/* lower cards starts from here */
+#lower-card-whole {
+    padding: 150px 0;
+}
+
+#lower-card h4 {
+    color: #FFAD4C;
+}
+
+#bg {
+    background-image: url("card-text-bg.png");
+    width: 100%;
+    height: auto;
+}
+
+
+/* lower cards ends here */
+
+/* only text part starts from here */
+
+.only-text {
+    text-align: center;
+    padding-bottom: 200px;
+}
+
+.only-text h1 {
+    font-size: 80px;
+}
+
+.only-text p {
+    font-weight: 500;
+}
+
+/* only text part ends from here */
+
+/* Title starts from here */
+.title {
+    text-align: center;
+    padding: 400px 0;
+}
+
+.title h2 {
+    font-size: 50px;
+    color: white;
+
+}
+
+.tittle p {
+    font-size: 20px;
+    color: black;
+}
+
+.title input {
+    width: 70%;
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+
+}
+
+.title button {
+    border-radius: 20px;
+    color: white;
+    background-color: #53514B;
+    padding: 2px 50px;
+    border: none;
+    margin-left: -180px;
+    height: 41px;
+
+}
+
+#tittle-bg {
+    background-image: url("tiitle-bg.png");
+    width: 100%;
+    height: auto;
+}
+
+/* Title ends here */
+
+/* Footer Starts from here */
+
+#footer {
+    background-image: url("footer.png");
+    width: 100%;
+    height: auto;
+}
+#footer h2{
+    font-weight: 600;
+}
+#footer h4{
+    font-weight: 600;
+}
+
+.last {
+    padding-top: 200px;
+    padding-bottom: 80px;
+}
+
+.last h2 {
+    color: white;
+    font-weight: 300;
+}
+
+.last p {
+    color: white;
+}
+
+.last h4 {
+    color: white;
+    font-weight: 300;
+}
+
+.last a {
+    color: white;
+    line-height: 30px;
+
+}
+
+.last a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer ends here */
+
+
+
+@media only screen and (max-width: 480px) {
+    
+    /* Hero Image part starts from here */
+    .navbar-brand img{
+        width: 60px;
+        height: auto;
+    }
+
+    .navbar-brand {
+        padding-left: 0px;
+    }
+
+    #hero h1 {
+        font-size: 50px;
+
+    }
+
+    #hero b {
+        font-size: 20px;
+
+    }
+
+     #hero {
+        text-align: center;
+    }
+    #links input {
+    
+        width: 40%;
+    }
+    /* #links {
+        text-align: center;
+    }
+
+    form {
+        justify-content: center;
+    }  */
+
+
+
+
+    /* Hero Image part ends from here */
+    /* Upper card starts from here */
+    #upper-card- {
+        padding-top: 0px;
+    }
+
+    #up-card-txt p {
+
+        font-size: 16px;
+    }
+
+    /* Upper card ends here */
+
+
+
+    /* Side by side image and text starts from here */
+    .right-txt {
+        text-align: center;
+    }
+
+    .right-txt h1 {
+        font-size: 40px;
+    }
+
+    .right-txt p {
+        font-size: 16px;
+    }
+
+    /* Side by side image and text starts from here */
+    /* Mountain part starts from here */
+    .mountain {
+        padding: 250px 0;
+        text-align: center;
+    }
+
+    .mountain h2 {
+        font-size: 40px;
+    }
+
+    .mountain p {
+        font-size: 18px;
+        color: white;
+    }
+
+    /* Mountain part ends from here */
+    /* lower card starts from here */
+    #lower-card {
+        text-align: center;
+    }
+
+    /* lower card ends here */
+    /* tittle part starts from here */
+    .title h2 {
+        font-size: 40px;
+
+    }
+
+    .tittle p {
+        font-size: 16px;
+    }
+
+    .title input {
+        width: 70%;
+    }
+    .title button {
+        
+        margin-left: -100px;
+       
+    
+    }
+
+    
+    
+    
+
+    /* tittle part ends here */
+    /* Footer starts from here */
+
+    .last {
+       text-align: center;
+        padding-top: 130px;
+        padding-bottom: 0;
+
+    }
+
+    /* Footer ends here */
+}
+
+@media only screen and (min-width: 480px) and (max-width: 768px) {
+
+    /* Hero Image part starts from here */
+    .navbar-brand img{
+        width: 80px;
+        height: auto;
+    }
+
+    .navbar-brand {
+        padding-left: 0px;
+    }
+
+    #hero h1 {
+        font-size: 60px;
+
+    }
+
+    #hero b {
+        font-size: 22px;
+
+    }
+
+    #hero {
+        text-align: center;
+    }
+
+    #links {
+        text-align: center;
+    }
+
+    form {
+        justify-content: center;
+    }
+
+    #links input {
+        width: 20%;
+    }
+
+
+    /* Hero Image part ends from here */
+    /* Upper card starts from here */
+    #upper-card- {
+        padding-top: 0px;
+    }
+
+    #up-card-txt p {
+
+        font-size: 18px;
+    }
+
+    /* Upper card ends here */
+    /* Side by side image and text starts from here */
+    .right-txt {
+        text-align: center;
+    }
+
+    .right-txt h1 {
+        font-size: 50px;
+    }
+
+    .right-txt p {
+        font-size: 18px;
+    }
+
+    /* Side by side image and text starts from here */
+    /* lower card starts from here */
+    #lower-card {
+        text-align: center;
+    }
+
+    /* lower card ends here */
+    /* tittle part starts from here */
+    .title h2 {
+        font-size: 50px;
+
+    }
+
+    .tittle p {
+        font-size: 18px;
+    }
+
+    /* tittle part ends here */
+    /* Footer starts from here */
+
+    .last {
+        text-align: center;
+        padding-top: 150px;
+        padding-bottom: 0;
+
+    }
+
+    /* Footer ends here */
+}
